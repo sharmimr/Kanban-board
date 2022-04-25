@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import DragNDrop from './components/DragNDrop';
 import { useEffect, useState } from 'react';
@@ -27,11 +26,6 @@ useEffect(()=>{
         }else return obj
       }));
       setAddedTask(addedTask+1);
-  }
-
-  const handleEditTask=(e)=>{
-    e.target.innerHTML= `<input type=text value=${val}>`;
-    
   }
 
   const handleDeleteTask=(e)=>{
