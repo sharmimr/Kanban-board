@@ -13,7 +13,6 @@ const data = [
 function App() {
   const [data1,setData1] = useState(data);
   const [addedTask,setAddedTask]=useState(10);
-  const [val,setVal]=useState('');
 useEffect(()=>{
   setData1(data);
 },[]);
